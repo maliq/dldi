@@ -1,0 +1,11 @@
+.classpath
+.project
+.settings/
+target/
+target-eclipse/
+stacktrace.log
+.groovy/
+data/
+.idea/
+*.iml
+out/
