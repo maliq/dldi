@@ -103,6 +103,14 @@ log4j.main = {
     //    console name:'stdout', layout:pattern(conversionPattern: '%c{2} %m%n')
     //}
 
+    // Set level for all application artifacts
+    all "cl.toeska.dldi","grails.app"
+
+    // Set for all taglibs and plugin
+    error   "grails.app.taglib",
+            "grails.app.resourceMappers.org.grails.plugin.resource",
+            "grails.plugin"
+
     error  'org.codehaus.groovy.grails.web.servlet',        // controllers
            'org.codehaus.groovy.grails.web.pages',          // GSP
            'org.codehaus.groovy.grails.web.sitemesh',       // layouts
