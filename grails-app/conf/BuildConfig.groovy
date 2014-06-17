@@ -52,6 +52,9 @@ grails.project.dependency.resolution = {
         // runtime 'org.postgresql:postgresql:9.3-1101-jdbc41'
 
         compile "org.springframework:spring-orm:$springVersion"
+
+        // Postgresql library
+        runtime "postgresql:postgresql:9.1-901.jdbc4"
     }
 
     plugins {
